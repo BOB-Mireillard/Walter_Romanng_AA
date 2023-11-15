@@ -373,9 +373,16 @@ screen navigation():
 
             else:
 
-                textbutton _("Historique") action ShowMenu("history")
+                # textbutton _("Historique") action ShowMenu("history")
+                imagebutton:
+                    auto "buttons/menu/historique_%s.png"
+                    action ShowMenu("history")
 
                 # textbutton _("Sauvegarde") action ShowMenu("save")
+                imagebutton:
+                    auto "buttons/menu/Sauvegardes_%s.png"
+                    action ShowMenu("save")
+
 
             # textbutton _("À propos") action ShowMenu("about")
             # textbutton _("Charger Partie") action ShowMenu("load")
@@ -392,7 +399,10 @@ screen navigation():
 
             elif not main_menu:
 
-                textbutton _("Menu principal") action MainMenu()
+                # textbutton _("Menu principal") action MainMenu()
+                imagebutton:
+                    auto "buttons/menu/menu_principal_%s.png"
+                    action MainMenu()
 
             
             # textbutton _("Nouvelle Partie") action Start()
