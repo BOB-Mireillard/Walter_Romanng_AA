@@ -2,34 +2,21 @@
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 # ex: image eileen heureuse = "eileen_heureuse.png"
-image BOB ="BOB.png"
-# Déclarez les personnages utilisés dans le jeu.
-define bob = Character(_('BOB'), color="#c8ffc8")
+
 
 # Le jeu commence ici
 label first_case:
-    show BOB at right
-    bob "salut"
-    menu:
-
-        bob "eske tu veux"
-
-        "oui":
-
-            jump c
-
-        "non":
-
-            jump d
-label c:
-    bob "dakor"
-    jump aa
-label d:
-    bob "ok"
-    jump aa
-label aa:
-    bob "AAAAAAAA"
-    jump start_intro
+    WR "Mon nom est Walter, Walter Romanng."
+    WR "je suis avocat de la défense, et aujourd’hui je débute mon second procès."
+    WR "En tant que représentant de la défense, je me doit de protéger mon client."
+    WR "Et de pouvoir enfin exercer mon talent à un niveau professionel..."
+    WR "Du moins... je le pense."
+    WR "Bien que cela soit très improbable pour une cour de justice."
+    
+    
+    
+    
+ 
 
     
     

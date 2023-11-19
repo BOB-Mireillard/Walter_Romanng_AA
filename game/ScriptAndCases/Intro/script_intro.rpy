@@ -21,6 +21,8 @@ label start_intro:
   "Craignant les autres, tout cela instauré dans une chaîne \ndont nous sommes les maillons."
   "Mais tel le pygargue, guettant sa proie."
   "La balance trouve toujours, le bon côté ou pencher."
+  jump first_case
+
     
     
 

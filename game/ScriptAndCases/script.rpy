@@ -55,10 +55,14 @@ define narrator = Character(callback=type_sound)
 
 image WR ="WR.png"
 # Déclarez les personnages utilisés dans le jeu.
-define WR = Character(_('Romanng'), color="#ffff")
+define WR = Character(('Romanng'), color="#ffff", callback=type_sound)
 label start:
     stop music fadeout 1
-    jump start_intro
+    menu:
+        "intro":
+            jump start_intro
+        "Case 1":
+            jump first_case
 
     
     
