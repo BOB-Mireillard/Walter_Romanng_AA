@@ -1,107 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/screens.rpy", line 696, in execute
-    screen save():
-  File "game/screens.rpy", line 696, in execute
-    screen save():
-  File "game/screens.rpy", line 700, in execute
-    use file_slots(_("Sauvegarde"))
-  File "game/screens.rpy", line 710, in execute
-    screen file_slots(title):
-  File "game/screens.rpy", line 710, in execute
-    screen file_slots(title):
-  File "game/screens.rpy", line 714, in execute
-    use game_menu(title):
-  File "game/screens.rpy", line 528, in execute
-    screen game_menu(title, scroll=None, yinitial=0.0):
-  File "game/screens.rpy", line 528, in execute
-    screen game_menu(title, scroll=None, yinitial=0.0):
-  File "game/screens.rpy", line 582, in execute
-    use navigation
-  File "game/screens.rpy", line 286, in execute
-    screen navigation():
-  File "game/screens.rpy", line 286, in execute
-    screen navigation():
-  File "game/screens.rpy", line 287, in execute
-    if renpy.get_screen("main_menu"):
-  File "game/screens.rpy", line 357, in execute
-    vbox:
-  File "game/screens.rpy", line 396, in execute
-    if _in_replay:
-  File "game/screens.rpy", line 403, in execute
-    imagebutton:
-Exception: Imagebutton does not have a idle image. (auto='historique_%s.png').
+  File "game/ScriptAndCases/Intro/script_intro.rpy", line 35, in script
+    "La balance trouve toujours, le bon côté ou pencher." with dissolve (0.3)
+TypeError: 'Dissolve' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
-    $ ui.interact()
-  File "D:\truc\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
-    $ ui.interact()
+  File "game/ScriptAndCases/Intro/script_intro.rpy", line 35, in script
+    "La balance trouve toujours, le bon côté ou pencher." with dissolve (0.3)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
+    who(what, *args, **kwargs)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "D:\truc\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 4055, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 684, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\screen.py", line 476, in visit_all
-    callback(self)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 4055, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\screen.py", line 487, in per_interact
-    self.update()
-  File "D:\truc\renpy-8.1.3-sdk\renpy\display\screen.py", line 680, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 696, in execute
-    screen save():
-  File "game/screens.rpy", line 696, in execute
-    screen save():
-  File "game/screens.rpy", line 700, in execute
-    use file_slots(_("Sauvegarde"))
-  File "game/screens.rpy", line 710, in execute
-    screen file_slots(title):
-  File "game/screens.rpy", line 710, in execute
-    screen file_slots(title):
-  File "game/screens.rpy", line 714, in execute
-    use game_menu(title):
-  File "game/screens.rpy", line 528, in execute
-    screen game_menu(title, scroll=None, yinitial=0.0):
-  File "game/screens.rpy", line 528, in execute
-    screen game_menu(title, scroll=None, yinitial=0.0):
-  File "game/screens.rpy", line 582, in execute
-    use navigation
-  File "game/screens.rpy", line 286, in execute
-    screen navigation():
-  File "game/screens.rpy", line 286, in execute
-    screen navigation():
-  File "game/screens.rpy", line 287, in execute
-    if renpy.get_screen("main_menu"):
-  File "game/screens.rpy", line 357, in execute
-    vbox:
-  File "game/screens.rpy", line 396, in execute
-    if _in_replay:
-  File "game/screens.rpy", line 403, in execute
-    imagebutton:
-  File "D:\truc\renpy-8.1.3-sdk\renpy\ui.py", line 948, in _imagebutton
-    idle = choice(idle, idle_image, "idle", required=True)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\ui.py", line 942, in choice
-    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
-Exception: Imagebutton does not have a idle image. (auto='historique_%s.png').
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 3976, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 3922, in instantiate_transition
+    trans = self.ongoing_transition[layer](
+TypeError: 'Dissolve' object is not callable
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Ace Attorney: Walter Romanng  Beta
-Wed Nov 15 18:01:08 2023
+Mon Nov 20 17:17:17 2023
