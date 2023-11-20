@@ -5,6 +5,7 @@
 
 
 # Le jeu commence ici
+#color define
 
 label start_intro:
 
