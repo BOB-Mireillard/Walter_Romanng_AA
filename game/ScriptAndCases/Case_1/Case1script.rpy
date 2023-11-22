@@ -69,6 +69,7 @@ label courtroom:
     WR" {color=#80BEE4}(Hé bien dis donc, c’est qu’il est pas très futé le Kam !){/color}"
     K"Hé, je sais à quoi vous pensez Walter : {i}\n\"eugngngn il est pas très futé le Kam ! \"{/i}"
     K" Mais je suis tout autant déboussolé que vous, vous savez !"
+    K"test"
 
     
     
