@@ -11,7 +11,7 @@
 label first_case:
     
     WR """
-        Mon nom est Walter,{cps=2} {/cps} Walter Romanng.
+        Mon nom est Walter,{w=0.5} Walter Romanng.
 
         je suis avocat de la défense, et aujourd’hui je débute mon second procès.
 
@@ -29,9 +29,16 @@ label first_case:
     """
     
   
-    "{color=#27B52C}{font=consola.ttf}8 Août, 8h15{/font}{/color}"
-    "{color=#27B52C}{font=consola.ttf}Tribunal Fédéral{/font}{/color}"
-    "{color=#27B52C}{font=consola.ttf}Salle des accusés N°1{/font}{/color}"
+    MAE"""
+    {color=#27B52C}{font=consola.ttf}8 Août, 8h15{/font}{/color}
+    
+
+    {color=#27B52C}{font=consola.ttf}Tribunal Fédéral{/font}{/color}
+    
+    
+    {color=#27B52C}{font=consola.ttf}Salle des accusés N°1{/font}{/color}
+    
+    """
     jump courtroom
 
 

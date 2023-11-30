@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ScriptAndCases/Intro/script_intro.rpy", line 9: expected statement.
-    pense="#80BEE4"
+File "game/ScriptAndCases/script.rpy", line 39: invalid syntax
+        elif event == "slow_done" or event == "end":
          ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Mon Nov 20 19:44:00 2023
+Thu Nov 30 11:30:57 2023

@@ -17,24 +17,28 @@
 
 
 ##both combined
-define sounds = ['audio/bip.ogg']
+# 'audio/sounds/bip1.ogg'
+define sounds = ['audio/sounds/bip2.mp3','audio/sounds/bip3.mp3','audio/sounds/bip4.mp3']
+define typewrite_sounds= ['audio/sounds/A1.ogg', 'audio/sounds/A2.ogg', 'audio/sounds/A3.ogg', 'audio/sounds/A4.ogg', 'audio/sounds/A5.ogg','audio/sounds/B1.ogg', 'audio/sounds/B2.ogg', 'audio/sounds/B3.ogg', 'audio/sounds/B4.ogg', 'audio/sounds/B5.ogg']
 
 init python:
     def type_sound(event, interact=True, **kwargs):
         if not interact:
             return
 
-        if event == "show": #if text's being written by character, spam typing sounds until the text ends
-            renpy.sound.play(renpy.random.choice(sounds), loop =True)
-## a  quand on aura plusieurs sound en 
-            #for i in range (50):
-                #renpy.sound.queu(renpy.random.choice(sounds))
-            
-            #dumb way to do it but it works, dunno if it causes memory leaks but it's almost 6AM :v
+        if event == "show_done": #if text's being written by character, spam typing sounds until the text ends
+            for i in range (50):
+                renpy.sound.queue(renpy.random.choice(sounds))
+        elif event == "slow_done":
+            renpy.sound.stop()
+    def type_sound_typewrite(event, interact=True, **kwargs):
+        if not interact:
+            return
 
-
-
-        elif event == "slow_done" or event == "end":
+        if event == "show_done": #if text's being written by character, spam typing sounds until the text ends
+            for i in range (50):
+                renpy.sound.queue(renpy.random.choice(typewrite_sounds))
+        elif event == "slow_done":
             renpy.sound.stop()
 
 
@@ -47,6 +51,8 @@ define NoType = Character("Character without typing")
 
 #regular narration that doesn't have a character attached to it, add an # to it if you don't want that
 define narrator = Character(callback=type_sound)
+define MAE = Character(callback=type_sound_typewrite) #MAE pour machine a
+
 
 
 
@@ -59,7 +65,9 @@ define WR = Character(('Romanng'), color="#ffffffff", callback=type_sound)
 define K = Character(('Kam'), color="#ffffffff", callback=type_sound)
 label start:
     stop music fadeout 1
+    
     menu:
+
         "intro":
             jump start_intro
         "Case 1":
