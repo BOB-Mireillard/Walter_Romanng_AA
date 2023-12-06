@@ -22,6 +22,9 @@ define sounds = ['audio/sounds/bip2.mp3','audio/sounds/bip3.mp3','audio/sounds/b
 define typewrite_sounds= ['audio/sounds/A1.ogg', 'audio/sounds/A2.ogg', 'audio/sounds/A3.ogg', 'audio/sounds/A4.ogg', 'audio/sounds/A5.ogg','audio/sounds/B1.ogg', 'audio/sounds/B2.ogg', 'audio/sounds/B3.ogg', 'audio/sounds/B4.ogg', 'audio/sounds/B5.ogg']
 
 init python:
+    vpunch_o = Move((0, 10), (0, -10), .1, bounce=True, repeat=True, delay=.275)
+    vpunch = Move((0, 50), (0, -50), .1, bounce=True, repeat=True, delay=.275)
+
     def type_sound(event, interact=True, **kwargs):
         if not interact:
             return
@@ -74,7 +77,7 @@ label start:
             jump first_case
         "Case1 (courtroom)":
             jump courtroom
-#test de commit
+
     
     
     

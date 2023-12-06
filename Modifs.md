@@ -6,8 +6,9 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- Nouveaux Sons (machine a écrire)
-- Correction des problemes de sound
-- ajout du fichier modif
+- Nouveaux Sons (machine a écrire) (augmentation du volume non definitif)
+- ajustement de vpunch pour que ca trembles +++
+- création de vpunch_o qui représente les valeurs originales de vpunch
+- ajustement du label courtroom pour que le proces commence avec l'h la salle ect
 
 #########################################################

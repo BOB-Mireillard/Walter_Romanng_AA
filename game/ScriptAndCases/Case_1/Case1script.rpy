@@ -28,6 +28,10 @@ label first_case:
         Et je ferais n'importe quoi pour.
     """
     
+    jump courtroom
+
+
+label courtroom:
   
     MAE"""
     {color=#27B52C}{font=consola.ttf}8 Août, 8h15{/font}{/color}
@@ -39,18 +43,14 @@ label first_case:
     {color=#27B52C}{font=consola.ttf}Salle des accusés N°1{/font}{/color}
     
     """
-    jump courtroom
-
-
-label courtroom:
     WR """
     {i}*Baille*{/i}
     
     La vache... je crois que je suis arrivé trop tôt au tribunal...
     """
     K "Hum... Walter ?"
-    with vpunch
-    WR "Ah ! Vous êtes ici inspecteur ?"
+    
+    WR "Ah ! Vous êtes ici inspecteur ?"with vpunch
     K " Je me charge malheureusement de l'affaire..."
     WR "\"Malheureusement\" ? C'est à dire ?"
     K"Nous parlons du procès pour ce meurtre là…"
