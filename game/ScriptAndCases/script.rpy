@@ -77,6 +77,10 @@ label start:
             jump first_case
         "Case1 (courtroom)":
             jump courtroom
+        "kam (courtroom)":
+            jump Kam
+        "Kale":
+            jump Kale
 
     
     

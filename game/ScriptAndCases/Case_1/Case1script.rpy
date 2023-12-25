@@ -76,12 +76,60 @@ label courtroom:
     WR" {color=#80BEE4}(Hé bien dis donc, c’est qu’il est pas très futé le Kam !){/color}"
     K"Hé, je sais à quoi vous pensez Walter : {i}\n\"eugngngn il est pas très futé le Kam ! \"{/i}"
     K" Mais je suis tout autant déboussolé que vous, vous savez !"
-    K"testfff"
+    #fondu au noir sauf Kam
+    jump Kam
+
+
+label Kam:
+    
+    WR" {color=#80BEE4}(Lui, {w=0.3}C’est l’inspecteur Kam, {w=0.3} ou plutôt, {w=0.5}Eudoe Kam.{p}
+        C’est un ami de longue date, {w=0.3}cependant, nous avons pris des chemins différents professionnellement parlant.){/color}"
+    WR "{color=#80BEE4}(Ces derniers temps, nous avons été bouleversé par un incident tragique,{w} c’est pour cela qu’il est autant déboussolé.){/color}"
+    WR "{color=#80BEE4}(Il faut dire qu’en temps normal c’est un chic type,{w} il est sympathique, mais son statut d’inspecteur laisse à désirer{w=0.1}.{w=0.1}.{w=0.1}. vraiment.){/color}"
 
     
     
+    #Fin du fondu au noir
+    K "Walter ?"
+    WR "Je ne sais même pas pourquoi on se vouvoie Eudoe. {w}Tu ne penses pas qu'on devrais arreter ?"
+    K "Non, continuons,{w} nous pourrons le faire en dehors du tribunal."
+    WR "D'accord."
+    WR"Bon, comment je vais faire pour défendre mon client moi…"
+    K "Pas d’inquiétude,{w=0.2} j’ai de quoi renverser l’accusation !"
+    WR"Non Kam...{w=0.2}vous avez surtout un taut de stress hors de la moyenne."
+    K "Rho...{w=0.2}"
+    K"Beu beu beu ! {w=0.2} C'est n’importe quoi !"
+    WR"{color=#80BEE4}(Il perd tout son rôle d’inspecteur…){/color}"
+    K "J’ai entendu dire que votre cliente pourrait venir d’un moment à l’autre."
+    WR"Je sais oui."
+    K"Et votre amie ?"
+    WR"Elle est au Lycée."
+    K "Ah euh{w=0.1}.{w=0.1}.{w=0.1}.{w=0.1} Vous n’avez pas peur qu’elle puisse rentrer plus tôt ?"
+    WR"Hmm ?{w=0.2} C’est-à-dire ?"
+    K"Fin,{w=0.2} vous voyez,{w=0.2} si elle n’a plus cours de la journée,{w=0.1} elle ne va pas attendre 17h pour revenir chez elle ?"
+    WR "Non non,{w=0.2} j’irais la chercher après le procès."
+    K"Hum…{w=0.2} D’accord."
+    WR"{color=#80BEE4}(Ma cliente est une jeune fille.){/color}"
+    WR"{color=#80BEE4}(Vous savez,{w=0.2} le genre de fille un peu{w=0.1}.{w=0.1}.{w=0.1}.{w=0.2} hyperactive.){/color}"
+    WR"{color=#80BEE4}(Elle s’appelle Kale,{w=0.2} Kale Bennett,{w} et est accusée du meurtre de mademoiselle Rose Marshel.){/color}"
+    K"En parlant du loup..."
+    WR "Elle est arrivée ?"
+    K"Non pas encore,{w=0.2} mais j’ai reçu son dossier."
+    WR"Ne me le lisez pas,{w=0.2} je le connais déjà, {w=0.2}il est vide."
+    K"Ahah !{w=0.2} Ça me rappelle un livre ça !"
+    WR"Lequel ?"
+    K "C’était un livre sur {i}« Ce que les hommes savent à propos des femmes »{/i}."
+    WR"Et ?"
+    K "C’est 100 pages blanches…"
+    WR"{color=#80BEE4}(Kam tu achètes vraiment des livres aussi frauduleux... ?){/color}"
+    #Arrivé de Kale
+    jump Kale
+
+label Kale:
     
+
     
+
  
 
     

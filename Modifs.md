@@ -6,12 +6,8 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- Nouveaux Sons (machine a écrire) (augmentation du volume non definitif)
-- ajustement de vpunch pour que ca trembles +++
-- création de vpunch_o qui représente les valeurs originales de vpunch
-- ajustement du label courtroom pour que le proces commence avec l'h la salle ect
+- On continue le script
 
 #########################################################
 
-
-Heures de travail (approximatif) : 24h
+Heures de travail (approximatif) : 25h 20 min
