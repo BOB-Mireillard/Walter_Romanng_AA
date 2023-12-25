@@ -12,3 +12,6 @@ Ici les dernieres modifs effectués:
 - ajustement du label courtroom pour que le proces commence avec l'h la salle ect
 
 #########################################################
+
+
+Heures de travail (approximatif) : 24h
