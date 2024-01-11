@@ -66,6 +66,7 @@ image WR ="WR.png"
 # Déclarez les personnages utilisés dans le jeu.
 define WR = Character(('Romanng'), color="#ffffffff", callback=type_sound)
 define K = Character(('Kam'), color="#ffffffff", callback=type_sound)
+define KA = Character(('Kale Bennett'), color="#ffffffff", callback=type_sound)
 label start:
     stop music fadeout 1
     

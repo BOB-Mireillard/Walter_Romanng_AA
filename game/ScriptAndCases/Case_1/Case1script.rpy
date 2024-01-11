@@ -127,6 +127,37 @@ label Kam:
 
 label Kale:
     
+    KA"Monsieuuurrr !!!" with vpunch
+    WR"Arghh !"with vpunch 
+    WR"Vous m’avez fait peur !!!"
+    KA"Sauvez moi j’vous en prie !{w=0.2} J’ai rien fait et me voilà avec des menottes aux poignets !"
+    WR"{color=#80BEE4}(Hum… Je vais essayer…){/color}"
+    K"{i}Dis lui un truc Walter !{/i}"
+    WR"Euh… {w=0.2}Bien sûr...{w=0.2}voyons..."
+    KA"Je comprends pas !!!{w=0.3}"
+    KA"Pourquoi moi ???"with vpunch
+    WR"A vrai dire{w=0.1}.{w=0.1}.{w=0.1}.{w=0.2} Moi non plus je ne sais pas pourquoi ça m’arrive à moi..."
+    KA"J’ai {b}PAS{/b} tué cette femme !"
+    WR"Encore heureux."
+    WR"{color=#80BEE4}(Elle est très énergique dit donc...){/color}"
+    K"Walter arrête de parler comme ça ! Tu vas la stresser !"
+    WR"Mais-{w=0.2} Et moi ?!"
+    K"T’es avocat de la défense, tu peux pas te permettre de douter de toi !"
+    WR"{color=#80BEE4}(Pour une fois, Kam marque un point...){/color}"
+    WR"TU AS RAISON KAM !!" with vpunch
+    WR"{color=#80BEE4}(Wow...{w=0.2}J'aurais jamais cru dire ça un jour...){/color}"
+    WR"{b}BON !!{/b}"with vpunch
+    KA"Ah !{w=0.2} Cette lueur dans vos yeux monsieur !"
+    WR"Je vais vous tirer d’affaire Madame Bennett !"
+    KA"Vous pouvez m’appeler Kale…"
+    WR"Ah euh...{w=0.2} Madame Kale ?"
+    K"Walter… {w=0.2}On dit pas madame Kale.{w=0.2} On dit juste…{w=0.2} Kale."
+    WR"{color=#80BEE4}(Il à mangé du lion ce matin Kam !){/color}"
+    KA"Monsieur, vous avez décidé de me défendre !"
+    WR"{color=#80BEE4}(Je suis loin d’avoir Alzheimer Kale…){/color}"
+    
+
+    
 
     
 

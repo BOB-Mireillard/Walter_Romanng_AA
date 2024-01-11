@@ -1,40 +1,23 @@
-Mon Dec 25 12:58:12 2023
+Thu Jan 11 12:25:29 2024
 Windows-10-10.0.19045
 Ren'Py 8.1.3.23091805
  
 
-Bootstrap to the start of init.init. took 0.12s
+Bootstrap to the start of init.init. took 0.14s
 Early init. took 0.00s
-Loader init. took 0.15s
-Loading error handling. took 0.09s
-Loading script. took 0.78s
-Loading save slot metadata. took 0.25s
+Loader init. took 0.18s
+Loading error handling. took 0.14s
+Loading script. took 1.05s
+Loading save slot metadata. took 0.32s
 Loading persistent. took 0.00s
-Running init code. took 0.20s
-Loading analysis data. took 0.05s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.11s
-Index archives took 0.00s
-Dump and make backups. took 0.18s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.06s
+
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 131: end of line expected.
+    WR"Arghh !"with vpunch "{p}Vous m’avez fait peur !!!"
+                           ^
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.17s
-Build styles took 0.01s
-Load screen analysis took 0.14s
-Analyze screens took 0.01s
-Save screen analysis took 0.00s
-Prepare screens took 0.37s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.38s
+Interface start. took 0.50s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -46,44 +29,124 @@ Version: b'4.6.0 - Build 27.20.100.8853'
 Display Info: None
 Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.01s
-Init translation took 0.03s
-Build styles took 0.03s
-Load screen analysis took 0.13s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.04s
 Resetting cache.
-Bootstrap to the start of init.init. took 662.92s
+Bootstrap to the start of init.init. took 28.31s
 Early init. took 0.00s
-Loader init. took 0.31s
-Loading error handling. took 0.09s
-Loading script. took 0.58s
-Loading save slot metadata. took 0.07s
+Loader init. took 0.13s
+Loading error handling. took 0.07s
+Loading script. took 0.46s
+Loading save slot metadata. took 0.11s
 Loading persistent. took 0.00s
-Running init code. took 0.09s
-Loading analysis data. took 0.04s
+ - Init at game/gui.rpy:11 took 0.48516 s.
+Running init code. took 0.69s
+Loading analysis data. took 0.05s
 Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.06s
+Reloading save slot metadata. took 0.41s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
-Dump and make backups. took 0.16s
+Dump and make backups. took 0.21s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.10s
+Initial gc. took 0.07s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.09s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.25s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.74s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.02s
+Load screen analysis took 0.10s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 182.67s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 0.06s
+Loading script. took 0.42s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 133: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        KA"Sauvez moi j’vous en prie !{w=0.2} J’ai rien fait et me voilà avec des menottes aux poignets !
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start. took 0.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 202.10s
+Early init. took 0.00s
+Loader init. took 0.19s
+Loading error handling. took 0.05s
+Loading script. took 0.53s
+Loading save slot metadata. took 0.09s
+Loading persistent. took 0.00s
+Running init code. took 0.15s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.21s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
 Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.04s
+Analyze screens took 0.05s
 Save screen analysis took 0.05s
-Prepare screens took 0.20s
+Prepare screens took 0.25s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.12s
@@ -106,36 +169,700 @@ Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
 Resetting cache.
-Bootstrap to the start of init.init. took 757.50s
+Bootstrap to the start of init.init. took 252.60s
 Early init. took 0.00s
-Loader init. took 0.47s
-Loading error handling. took 0.12s
-Loading script. took 1.10s
-Loading save slot metadata. took 0.20s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.39s
+Loading save slot metadata. took 0.06s
 Loading persistent. took 0.00s
-Running init code. took 0.23s
-Loading analysis data. took 0.06s
-Analyze and compile ATL. took 0.01s
-Reloading save slot metadata. took 0.20s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
-Dump and make backups. took 0.28s
+Dump and make backups. took 0.19s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.27s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.15s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.41s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.13s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 295.56s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.06s
+Loading script. took 0.48s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.20s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 362.37s
+Early init. took 0.00s
+Loader init. took 0.21s
+Loading error handling. took 0.05s
+Loading script. took 0.48s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.07s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 402.32s
+Early init. took 0.00s
+Loader init. took 0.51s
+Loading error handling. took 0.09s
+Loading script. took 0.60s
+Loading save slot metadata. took 0.12s
+Loading persistent. took 0.00s
+
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 137: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        KA"Je comprends pas !!!{w=0.3} Pourquoi moi ???
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start. took 0.69s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 405.87s
+Early init. took 0.00s
+Loader init. took 0.33s
+Loading error handling. took 0.12s
+Loading script. took 0.82s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.23s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.19s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.32s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.32s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 446.48s
+Early init. took 0.00s
+Loader init. took 0.23s
+Loading error handling. took 0.05s
+Loading script. took 0.67s
+Loading save slot metadata. took 0.10s
+Loading persistent. took 0.00s
+Running init code. took 0.18s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 137, in script
+    KA"Je comprends pas !!!{w=0.3} {vpunch}Pourquoi moi ???"
+  File "D:\truc\renpy-8.1.3-sdk\renpy\ast.py", line 930, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\exports.py", line 1474, in say
+    who(what, *args, **kwargs)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 1003, in do_display
+    display_say(who,
+  File "D:\truc\renpy-8.1.3-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 3582, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 4175, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\core.py", line 2782, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\screen.py", line 731, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 1338, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\truc\renpy-8.1.3-sdk\renpy\text\text.py", line 2171, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\text\text.py", line 629, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\text\text.py", line 1289, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag 'vpunch'
+
+While processing text tag {vpunch} in 'Je comprends pas !!!{w=0.3} {vpunch}Pourquoi moi ???'.:
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 137, in script
+    KA"Je comprends pas !!!{w=0.3} {vpunch}Pourquoi moi ???"
+Exception: Unknown text tag 'vpunch'
+Resetting cache.
+Bootstrap to the start of init.init. took 494.37s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.45s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.16s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.11s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.12s
-Build styles took 0.03s
+Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.03s
-Save screen analysis took 0.19s
-Prepare screens took 0.43s
+Save screen analysis took 0.06s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 647.41s
+Early init. took 0.00s
+Loader init. took 0.35s
+Loading error handling. took 0.08s
+Loading script. took 0.43s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.17s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.07s
+Prepare screens took 0.26s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 699.52s
+Early init. took 0.00s
+Loader init. took 0.40s
+Loading error handling. took 0.14s
+Loading script. took 0.63s
+Loading save slot metadata. took 1.08s
+Loading persistent. took 0.00s
+
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 140: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        KA"J’ai {b}PAS{/b} tué cette femme ! 
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start. took 0.45s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 705.29s
+Early init. took 0.00s
+Loader init. took 0.36s
+Loading error handling. took 0.08s
+Loading script. took 0.66s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.03s
+Cleaning stores took 0.00s
+Init translation took 0.31s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.08s
+Save screen analysis took 0.13s
+Prepare screens took 0.33s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 712.67s
+Early init. took 0.00s
+Loader init. took 0.32s
+Loading error handling. took 0.09s
+Loading script. took 0.42s
+Loading save slot metadata. took 0.10s
+Loading persistent. took 0.00s
+Running init code. took 0.14s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.10s
+Index archives took 0.00s
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.09s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.21s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 795.51s
+Early init. took 0.00s
+Loader init. took 0.12s
+Loading error handling. took 0.05s
+Loading script. took 0.52s
+Loading save slot metadata. took 0.13s
+Loading persistent. took 0.00s
+Running init code. took 0.18s
+Loading analysis data. took 0.07s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.12s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.23s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 841.72s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.46s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.30s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.17s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.34s
+Build styles took 0.13s
+Load screen analysis took 0.00s
+Analyze screens took 0.09s
+Save screen analysis took 0.08s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 978.47s
+Early init. took 0.00s
+Loader init. took 0.12s
+Loading error handling. took 0.05s
+Loading script. took 0.39s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.15s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.20s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.10s
+Save screen analysis took 0.11s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1038.40s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 0.05s
+Loading script. took 0.50s
+Loading save slot metadata. took 0.33s
+Loading persistent. took 0.00s
+Running init code. took 0.15s
+Loading analysis data. took 0.05s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.14s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.08s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.26s
@@ -151,36 +878,88 @@ Display Info: None
 Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 774.80s
+Bootstrap to the start of init.init. took 1070.24s
 Early init. took 0.00s
-Loader init. took 0.13s
-Loading error handling. took 0.08s
-Loading script. took 0.50s
-Loading save slot metadata. took 0.07s
+Loader init. took 0.17s
+Loading error handling. took 0.07s
+Loading script. took 0.80s
+Loading save slot metadata. took 0.10s
 Loading persistent. took 0.00s
-Running init code. took 0.10s
-Loading analysis data. took 0.04s
-Analyze and compile ATL. took 0.00s
+Running init code. took 0.19s
+Loading analysis data. took 0.07s
+Analyze and compile ATL. took 0.01s
 Reloading save slot metadata. took 0.10s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
-Dump and make backups. took 0.21s
+Dump and make backups. took 0.20s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.10s
+Initial gc. took 0.11s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.26s
-Build styles took 0.05s
+Init translation took 0.11s
+Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.06s
-Save screen analysis took 0.08s
-Prepare screens took 0.38s
+Analyze screens took 0.03s
+Save screen analysis took 0.09s
+Prepare screens took 0.29s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.06s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init. took 1147.73s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 0.06s
+Loading script. took 0.43s
+Loading save slot metadata. took 0.08s
+Loading persistent. took 0.00s
+Running init code. took 0.12s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.16s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.08s
+Save screen analysis took 0.07s
+Prepare screens took 0.47s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.17s
@@ -195,3 +974,487 @@ Version: b'4.6.0 - Build 27.20.100.8853'
 Display Info: None
 Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1179.99s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.38s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.16s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.12s
+Save screen analysis took 0.12s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1248.13s
+Early init. took 0.00s
+Loader init. took 0.15s
+Loading error handling. took 0.05s
+Loading script. took 0.47s
+Loading save slot metadata. took 0.09s
+Loading persistent. took 0.00s
+Running init code. took 0.21s
+Loading analysis data. took 0.10s
+Analyze and compile ATL. took 0.01s
+Reloading save slot metadata. took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.23s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.08s
+Prepare screens took 0.64s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1290.19s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 0.05s
+Loading script. took 0.44s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.11s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.17s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.36s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.41s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.12s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1312.54s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.39s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.21s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.24s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.11s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.18s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1321.27s
+Early init. took 0.00s
+Loader init. took 0.18s
+Loading error handling. took 0.05s
+Loading script. took 0.76s
+Loading save slot metadata. took 0.15s
+Loading persistent. took 0.00s
+Running init code. took 0.17s
+Loading analysis data. took 0.06s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.42s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.29s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.21s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.06s
+Prepare screens took 0.54s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.49s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1326.62s
+Early init. took 0.00s
+Loader init. took 0.18s
+Loading error handling. took 0.05s
+Loading script. took 2.28s
+Loading save slot metadata. took 0.16s
+Loading persistent. took 0.00s
+Running init code. took 0.12s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.17s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.14s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.09s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1381.41s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.49s
+Loading save slot metadata. took 0.12s
+Loading persistent. took 0.00s
+Running init code. took 0.23s
+Loading analysis data. took 0.09s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.19s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.21s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.17s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.14s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.09s
+Running _start took 0.01s
+Performance test:
+Interface start. took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1386.06s
+Early init. took 0.00s
+Loader init. took 0.21s
+Loading error handling. took 0.44s
+Loading script. took 0.40s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.10s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.16s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.13s
+Prepare screens took 0.29s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1431.50s
+Early init. took 0.00s
+Loader init. took 0.13s
+Loading error handling. took 0.05s
+Loading script. took 0.40s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 156: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        KA"Monsieur, vous avez décidé de me défendre !
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start. took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1466.24s
+Early init. took 0.00s
+Loader init. took 0.18s
+Loading error handling. took 0.06s
+Loading script. took 0.54s
+Loading save slot metadata. took 0.07s
+Loading persistent. took 0.00s
+Running init code. took 0.16s
+Loading analysis data. took 0.04s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.18s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.16s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.11s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.10s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 1481.49s
+Early init. took 0.00s
+Loader init. took 0.14s
+Loading error handling. took 0.06s
+Loading script. took 0.54s
+Loading save slot metadata. took 0.06s
+Loading persistent. took 0.00s
+Running init code. took 0.13s
+Loading analysis data. took 0.07s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Elève\\AppData\\Roaming/RenPy/backups\\Ace Attorney Walter Romanng':
+Dump and make backups. took 0.21s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics 600'
+Version: b'4.6.0 - Build 27.20.100.8853'
+Display Info: None
+Screen sizes: virtual=(3285, 1848) physical=(1177, 662) drawable=(1177, 662)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.07s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

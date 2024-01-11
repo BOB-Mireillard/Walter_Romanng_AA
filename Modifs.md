@@ -10,4 +10,4 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-Heures de travail (approximatif) : 25h 20 min
+Heures de travail (approximatif) : 25h 50 min
