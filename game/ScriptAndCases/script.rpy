@@ -28,6 +28,8 @@ label start:
             jump Kam
         "Kale":
             jump Kale
+        "test testimny":
+            jump Testimony
 
     
     

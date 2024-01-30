@@ -156,8 +156,35 @@ label Kale:
     KA"Monsieur, vous avez décidé de me défendre !"
     WR"{color=#80BEE4}(Je suis loin d’avoir Alzheimer Kale…){/color}"
     
-
+    #ici la touche A serivrait à dire que l'affirmation est vrai
+    # Si elle est vraie, on passe au label succes
+    # sinon on passe au label echec correspondant
+    # qui reviens au label où l'on s'est trompé
     
+    label Testimony:
+        KA"affirmation 1"
+        # Si la touche A est pressée: 
+            jump echec_T1
+        # Sinon:
+            jump T2
+    label T2:
+
+        KA"affirmation 2" #affirmation vraie
+        # Si la touche A est pressée: 
+            jump succes
+        # Sinon:
+            jump T3
+    label T3:
+
+        KA"affirmation 3"
+        # Si la touche A est pressée: 
+            jump echec_T3
+        # Sinon:
+        jump Testimony
+
+            
+
+
 
     
 
