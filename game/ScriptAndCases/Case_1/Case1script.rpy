@@ -160,27 +160,34 @@ label Kale:
     # Si elle est vraie, on passe au label succes
     # sinon on passe au label echec correspondant
     # qui reviens au label où l'on s'est trompé
+
+
+
+    # Here the A key is used to say that the information is True 
+    # If it is true, we go to the success label
+    # if not, we go to the failure corresponding label
+    # which goes back to where we made a mistake
     
     label Testimony:
-        KA"affirmation 1"
-        # Si la touche A est pressée: 
-            jump echec_T1
-        # Sinon:
+        KA"information 1"
+        # if A pressed: 
+            jump fail_T1
+        # Else:
             jump T2
     label T2:
 
-        KA"affirmation 2" #affirmation vraie
-        # Si la touche A est pressée: 
-            jump succes
-        # Sinon:
+        KA"information 2" # True information
+        # If A pressed: 
+            jump success
+        # Else:
             jump T3
     label T3:
 
-        KA"affirmation 3"
-        # Si la touche A est pressée: 
-            jump echec_T3
-        # Sinon:
-        jump Testimony
+        KA"information 3"
+        # if A pressed: 
+            jump fail_T3
+        # Else:
+            jump Testimony
 
             
 

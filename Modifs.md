@@ -6,8 +6,8 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- Test sur la boucle testimony (echec)
+- Test sur la boucle testimony (echec) (encore j ai demander sur stack et discord btw)
 
 #########################################################
 
-Heures de travail (approximatif) : 28h 50 min
+Heures de travail (approximatif) : 29h 20 min
