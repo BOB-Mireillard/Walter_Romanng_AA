@@ -1,4 +1,6 @@
-﻿# Vous pouvez placer le script de votre jeu dans ce fichier.
+﻿python:
+    import keyboard
+# Vous pouvez placer le script de votre jeu dans ce fichier.
 
 # Déclarez sous cette ligne les images, avec l'instruction 'image'
 # ex: image eileen heureuse = "eileen_heureuse.png"
@@ -11,6 +13,7 @@
 ######################################""
 
 init python:
+    
     vpunch_o = Move((0, 10), (0, -10), .1, bounce=True, repeat=True, delay=.275)
     vpunch = Move((0, 50), (0, -50), .1, bounce=True, repeat=True, delay=.275)
 

@@ -38,12 +38,31 @@ define Type = Character("Character with typing", callback=type_sound)
 define NoType = Character("Character without typing")
 #regular narration that doesn't have a character attached to it, add an # to it if you don't want that
 
-
+# Narrator
 define narrator = Character(callback=type_sound)
+
+# Where and Where context
 define MAE = Character(callback=type_sound_typewrite) #MAE pour machine a ecrire
+
+# Walter Romanng, Main Character
 define WR = Character(('Romanng'), color="#ffffffff", callback=type_sound)
+
+# Eudoe Kam, Walter's BFF, Inspector
 define K = Character(('Kam'), color="#ffffffff", callback=type_sound)
+
+# Kale Bennett
 define KA = Character(('Kale Bennett'), color="#ffffffff", callback=type_sound)
+
+# Orchid Kassilth
+define OS = Character(('Orchid'), color="#ffffffff", callback=type_sound)
+
+# Juge
+define JUGE = Character(('Juge'), color="#ffffffff", callback=type_sound)
+
+# Silver Skyboarder
+define SS = Character(('Silver'), color="#ffffffff", callback=type_sound)
+
+
 
 
 
