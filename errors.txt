@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ScriptAndCases/Case_1/Case1script.rpy", line 177: end of line expected.
-    key "z" action Jump("Kale")
-            ^
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 171: expected '=' not found.
+    define keyboard_handler():
+                           ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Tue Feb 27 18:09:54 2024
+Tue May 14 16:50:36 2024

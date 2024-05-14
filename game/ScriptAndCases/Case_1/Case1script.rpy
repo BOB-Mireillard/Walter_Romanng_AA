@@ -167,21 +167,28 @@ label Kale:
     # Si elle est vraie, on passe au label succes
     # sinon on passe au label echec correspondant
     # qui reviens au label où l'on s'est trompé
-    init python:
-        def labeljump(label_name):
-            renpy.jump(label_name)
+
+
+
+
+
+
+    # init python:
+    #     def labeljump(label_name):
+    #         renpy.Jump(label_name)
     
         
     # label Testimony:
     #     KA"information 1"
-    #     key "z" action Jump("Kale")
-        # python:
-        #     def on_key_event(e):
-        #         if e.event_type == keyboard.KEY_DOWN and e.name == 'z':
-        #             labeljump("Kale")
-        #     keyboard.hook(on_key_event)
+    #     while True:
+    #         key "z" action Jump("Kale")
+    #         python:
+    #             def on_key_event(e):
+    #                 if e.event_type == keyboard.KEY_DOWN and e.name == 'z':
+    #                     labeljump("Kale")
+    #             keyboard.hook(on_key_event)
 
-        # $ labeljump("Kale")
+    #     $ labeljump("Kale")
     # Définition de l'étiquette Testimony
 
 
@@ -189,7 +196,7 @@ label Kale:
 
 
 
-        # if A pressed: 
+    #     if A pressed: 
     #         jump fail_T1
     #     # Else:
     #         jump T2
