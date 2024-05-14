@@ -10,6 +10,7 @@ Ici les dernieres modifs effectués:
   j'imagine que je vais devoir utiliser un if pour verifier si la key est pressée ou alors jsp j'ai trouver un truc recommandé par l'ia
   if renpy.input_is_active("a"):
   faudra essayer ca mais la j'ai la flm
+  (edit: define fonctionne sous la forme `define function ma_fonction():`apparement)
   #########################################################
 
 Heures de travail (approximatif) : 29h 30 min
