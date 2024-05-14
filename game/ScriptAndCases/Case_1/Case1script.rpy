@@ -168,7 +168,13 @@ label Kale:
     # sinon on passe au label echec correspondant
     # qui reviens au label où l'on s'est trompé
 
+#     define keyboard_handler():
+#     # if renpy.input_is_active("a"):  (should be interesting)
+#         key "z" action Jump("nazi")
+#     $ config.keymaps.append(('keyboard', 'z', keyboard_handler))
 
+# label nazi :
+#     WR"nigg"
 
 
 
