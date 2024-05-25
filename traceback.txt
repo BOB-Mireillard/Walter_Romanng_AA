@@ -1,22 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/ScriptAndCases/script.rpy", line 35, in script
-    jump Testimony
-ScriptError: could not find label 'Testimony'.
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 165, in script
+    if renpy.input_is_active("z"):
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 165, in <module>
+    if renpy.input_is_active("z"):
+AttributeError: module 'renpy.exports' has no attribute 'input_is_active'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/ScriptAndCases/script.rpy", line 35, in script
-    jump Testimony
-  File "D:\truc\renpy-8.1.3-sdk\renpy\ast.py", line 1992, in execute
-    rv = renpy.game.script.lookup(target)
-  File "D:\truc\renpy-8.1.3-sdk\renpy\script.py", line 1013, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'Testimony'.
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 165, in script
+    if renpy.input_is_active("z"):
+  File "D:\truc\renpy-8.1.3-sdk\renpy\ast.py", line 2133, in execute
+    if renpy.python.py_eval(condition):
+  File "D:\truc\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\truc\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/ScriptAndCases/Case_1/Case1script.rpy", line 165, in <module>
+    if renpy.input_is_active("z"):
+AttributeError: module 'renpy.exports' has no attribute 'input_is_active'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Ace Attorney: Walter Romanng  Beta
-Sat Mar 30 17:18:19 2024
+Sat May 25 21:43:01 2024

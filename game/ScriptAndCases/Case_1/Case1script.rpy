@@ -156,70 +156,9 @@ label Kale:
     WR"{color=#80BEE4}(Il à mangé du lion ce matin Kam !){/color}"
     KA"Monsieur, vous avez décidé de me défendre !"
     WR"{color=#80BEE4}(Je suis loin d’avoir Alzheimer Kale…){/color}"
-    
-
-    # Here the A key is used to say that the information is True 
-    # If it is true, we go to the success label
-    # if not, we go to the failure corresponding label
-    # which goes back to where we made a mistake
-    
-    #ici la touche A serivrait à dire que l'affirmation est vrai
-    # Si elle est vraie, on passe au label succes
-    # sinon on passe au label echec correspondant
-    # qui reviens au label où l'on s'est trompé
-
-#     define keyboard_handler():
-#     # if renpy.input_is_active("a"):  (should be interesting)
-#         key "z" action Jump("nazi")
-#     $ config.keymaps.append(('keyboard', 'z', keyboard_handler))
-
-# label nazi :
-#     WR"nigg"
 
 
 
-
-    # init python:
-    #     def labeljump(label_name):
-    #         renpy.Jump(label_name)
-    
-        
-    # label Testimony:
-    #     KA"information 1"
-    #     while True:
-    #         key "z" action Jump("Kale")
-    #         python:
-    #             def on_key_event(e):
-    #                 if e.event_type == keyboard.KEY_DOWN and e.name == 'z':
-    #                     labeljump("Kale")
-    #             keyboard.hook(on_key_event)
-
-    #     $ labeljump("Kale")
-    # Définition de l'étiquette Testimony
-
-
-
-
-
-
-    #     if A pressed: 
-    #         jump fail_T1
-    #     # Else:
-    #         jump T2
-    # label T2:
-
-    #     KA"information 2" # True information
-    #     # If A pressed: 
-    #         jump success
-    #     # Else:
-    #         jump T3
-    # label T3:
-
-    #     KA"information 3"
-    #     # if A pressed: 
-    #         jump fail_T3
-    #     # Else:
-    #         jump Testimony
 
             
 

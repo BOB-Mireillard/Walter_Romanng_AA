@@ -12,6 +12,13 @@
 #test du son
 ######################################""
 
+
+#### Code pour les touches: attaquer
+screen attack(check):
+    key 'a' action Jump(check) 
+####################################
+
+
 init python:
     
     vpunch_o = Move((0, 10), (0, -10), .1, bounce=True, repeat=True, delay=.275)
@@ -31,8 +38,7 @@ label start:
             jump Kam
         "Kale":
             jump Kale
-        "test testimny":
-            jump Testimony
+        
 
     
     

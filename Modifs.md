@@ -6,10 +6,7 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- J'ai essayer de regler les probleme pour la label loop, visiblement faut changer les keymap
-  j'imagine que je vais devoir utiliser un if pour verifier si la key est pressée ou alors jsp j'ai trouver un truc recommandé par l'ia
-  if renpy.input_is_active("a"):
-  faudra essayer ca mais la j'ai la flm
+- HELL YEAH ca marche enfin j'ai fait dla merde mais ca marcheeeeeee boucle de testimony oppérationel c incroyable
   #########################################################
 
-Heures de travail (approximatif) : 29h 30 min
+Heures de travail (approximatif) : 30h 10 min
