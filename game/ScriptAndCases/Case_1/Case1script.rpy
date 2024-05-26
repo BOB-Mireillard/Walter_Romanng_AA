@@ -82,6 +82,7 @@ label courtroom:
 
 
 label Kam:
+    show Kam angry
     
     WR" {color=#80BEE4}(Lui, {w=0.3}C’est l’inspecteur Kam, {w=0.3} ou plutôt, {w=0.5}Eudoe Kam.{p}
         C’est un ami de longue date, {w=0.3}cependant, nous avons pris des chemins différents professionnellement parlant.){/color}"
@@ -156,6 +157,7 @@ label Kale:
     WR"{color=#80BEE4}(Il à mangé du lion ce matin Kam !){/color}"
     KA"Monsieur, vous avez décidé de me défendre !"
     WR"{color=#80BEE4}(Je suis loin d’avoir Alzheimer Kale…){/color}"
+    
 
 
 

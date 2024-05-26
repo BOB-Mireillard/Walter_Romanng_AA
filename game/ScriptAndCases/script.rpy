@@ -38,7 +38,8 @@ label start:
             jump Kam
         "Kale":
             jump Kale
-        
+        "Koala":
+            jump koala
 
     
     
