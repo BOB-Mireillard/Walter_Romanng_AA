@@ -6,9 +6,9 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- création du shitpost koala
-- test de sprite (faudra remetre bien tout ce merdier)
+- continue le script
+- test de sprite, dissolve
 
 #########################################################
 
-Heures de travail (approximatif) : 30h 40 min
+Heures de travail (approximatif) : 31h 00 min
