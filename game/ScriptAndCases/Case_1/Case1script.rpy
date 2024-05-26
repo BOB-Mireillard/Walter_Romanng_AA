@@ -82,7 +82,7 @@ label courtroom:
 
 
 label Kam:
-    show Kam angry
+    
     
     WR" {color=#80BEE4}(Lui, {w=0.3}C’est l’inspecteur Kam, {w=0.3} ou plutôt, {w=0.5}Eudoe Kam.{p}
         C’est un ami de longue date, {w=0.3}cependant, nous avons pris des chemins différents professionnellement parlant.){/color}"
@@ -157,6 +157,26 @@ label Kale:
     WR"{color=#80BEE4}(Il à mangé du lion ce matin Kam !){/color}"
     KA"Monsieur, vous avez décidé de me défendre !"
     WR"{color=#80BEE4}(Je suis loin d’avoir Alzheimer Kale…){/color}"
+    K"Ouais ! Si t'a décidé de la défendre, c'est que t'es sûr de toi !"
+    WR"{color=#80BEE4}(Kam... J'ai décidé de la défendre parce que c'est une amie d'enfance...){/color}"
+    WR"Euh, j'ai pas vraiment..."
+    #show benet crying
+    WR"J'veux dire...! J'ai pas vraiment tout le rapport de l'affaire..."
+    K"Ah bon ?"
+    ##changer peut etre un dialogue par 1 pour show les images
+    WR"Oui, j'ai... Euh... Le rapport d'autopsie... l'arme du crime... Un plan de la maison."
+#######################" Maybe flashback"
+    K "Ah d'ailleurs, il faut savoir que le dossier sera immédiatement envoyé aux oubliettes après le procès."
+    WR"Quoi ?!!"with vpunch
+    K"C'est une tradition quand les procureurs sont tués, on ne garde plus leurs affaires."
+    WR"Je ne pourrais plus jamais toucher au dossier après le procès ?"
+    K"Oui."
+    #Kam regarde le 4e mur 
+    K"Souviens toi bien de ca Walter."
+    K"c'est d'ailleur la raison de mon chagrin..."
+#########################################
+
+
     
 
 

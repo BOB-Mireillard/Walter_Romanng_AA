@@ -13,35 +13,37 @@ label koala:
     
     show kam help
     K"Walter je crois qu'on a affaire non pas à un homme..."
-    hide kam help
-    show walter concentrate 
+    hide kam helps with dissolve
+    
+    show walter concentrate with dissolve
     WR"Une femme ?"
-    hide walter concentrate
+    hide walter concentrates
     show Kam angry
     K"Non plus.."
-    hide Kam angry
+    hide Kam angrys
     show walter pointing
     WR"Un enfant ?!"
-    hide walter pointing
+    hide walter pointings
     show Kam angry
     K"Toujours pas."
-    hide Kam angry
+    hide Kam angrys
     show walter chocked
     WR"A quoi alors ??"
-    hide walter chocked
+    hide walter chockeds
+    
     show kam confident
     K"Un Koala."
-    hide kam confident
+    hide kam confidents
     show walter chocked
     WR"???"
     WR"Qu'est ce qui vous fait dire ça ?"
-    hide walter chocked
+    hide walter chockeds
     show kam happy
     K"Tout d'abord, on est dans un zoo."
-    hide kam happy
+    hide kam happys
     show walter wtf
     WR"Oui, et ?"
-    hide walter wtf
+    hide walter wtfs
     show kam angry
     K"Et enfin, Nous sommes actuellement..."
     K"Dans l'enclos des Koalas."
