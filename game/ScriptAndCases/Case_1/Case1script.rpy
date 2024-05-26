@@ -175,6 +175,62 @@ label Kale:
     K"Souviens toi bien de ca Walter."
     K"c'est d'ailleur la raison de mon chagrin..."
 #########################################
+    WR "Bon. Qui est ce procureur ?"
+    #monter skyboarder
+    K "Mr Skyboarder, je crois bien."
+    WR "C'est qui ce monsieur encore ?"
+    K"Un procureur qui travaillait...{w=0.2} Avec la victime."
+    K"Cependant."
+    K"Il y a un deuxième procureur..."
+    WR "UN{w=0.1} DEUXIEME{w=0.1} PROCUREUR ?!?!?!" with vpunch
+    KA"Mais-"
+    KA"Comment c'est possible enfin !?"
+    K "Quand un procureur se fait tuer, on parle beaucoup de lui vous savez."
+    K "Et plusieurs procureurs ont voulut prendre l'accusation !"
+    WR "Comme qui ?"
+    K"Je ne sais pas, mais il y avait{w=0.2} pleins,{w=0.2} pleins,{w=0.2} pleins de gens en costumes qui voulait le dossier ! "
+    WR "Aïe ! C'est vraiment mal parti..."
+    KA "Je vais être déclarée coupable, c'est ca... ?"
+    # **fondu au noir avec Kale**
+    WR "{color=#80BEE4}(C'est mon amie après tout...){/color}"
+    WR "{color=#80BEE4}(Je n'ai pas le choix...{w} je n'ai pas le droit à l'erreur.){/color}"
+    WR "{color=#80BEE4}(Jamais je n'abandonnerais ! Ma carrière d'avocat...){/color}"
+    WR "{color=#80BEE4}(NE FAIT QUE COMMENCER !){/color}" with vpunch
+    #kale disparait
+    WR"{w=0.3}{color=#80BEE4}(C'est donc ça,{w=0.2} être avocat de la défense ?){/color}"
+    WR"{color=#80BEE4}(Commencer sans rien avoir, et remonter les pistes jusqu'à la victoire...){/color}"
+    WR"{color=#80BEE4}(Tout cela est vrai, puisque ça rime...){/color}"
+    WR"{color=#80BEE4}(C'est peut-être ça la magie de la justice.){/color}"
+    WR"{color=#80BEE4}(Après tout, elle serait incapable de tuer quelqu'un, je la connais bien, c'est mon amie){/color}"
+    WR"{color=#80BEE4}(Si je montre un semblant d'insécurité, ça va réduire ma plaidoirie à néant, il faut que j'assure !){/color}"
+    #fin du fondu
+    KA"Romanng ?"
+
+    WR "?!" with vpunch
+    WR "Vous pouvez compter sur moi."
+    huissier"Le procès va bientôt débuter, la défence et l'accusée sont appelés à rejoindre la salle d'audience !"
+    K"Bon, il est temps d'y aller ?"
+    WR"Je suppose que oui."
+    KA"Oh là là je stresse !! Mon cœur bat si vite !"
+    WR"Pas d'inquiétude ! Je me sens prêt !"
+    K"T'inqiète pas Walter, on est bien."
+    #fondu au nègre
+    WR"Et c'est ainsi que mon second procès commença,{w=0.2} dans la crainte,{w=0.2} livré à moi-même,{w=0.1} sans connaitre l'affaire."
+    WR"Et j'était loin de me douter de ce que ce procès allait m'approter."
+    jump huit_h_quarante
+
+label huit_h_quarante:
+    MAE"""
+    {color=#27B52C}{font=consola.ttf}8 Août, 8h40{/font}{/color}
+    
+
+    {color=#27B52C}{font=consola.ttf}Tribunal Fédéral{/font}{/color}
+    
+    
+    {color=#27B52C}{font=consola.ttf}Salle d'audiance N°1{/font}{/color}
+    
+    """
+
 
 
     

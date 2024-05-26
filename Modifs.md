@@ -7,8 +7,7 @@ Ici les dernieres modifs effectués:
 #########################################################
 
 - continue le script
-- test de sprite, dissolve
 
 #########################################################
 
-Heures de travail (approximatif) : 31h 00 min
+Heures de travail (approximatif) : 31h 40 min

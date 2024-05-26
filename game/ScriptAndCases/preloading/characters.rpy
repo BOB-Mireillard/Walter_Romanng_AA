@@ -61,7 +61,8 @@ define JUGE = Character(('Juge'), color="#ffffffff", callback=type_sound)
 
 # Silver Skyboarder
 define SS = Character(('Silver'), color="#ffffffff", callback=type_sound)
-
+# Huissier
+define huissier =Character(('Huissier'),color="#ffffffff",callback=type_sound)
 
 ############################################################################################################
 ############################################################################################################

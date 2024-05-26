@@ -159,6 +159,12 @@
                 "settings": {
                     "foreground": "#cfc"
                 }
+            },
+            {
+                "scope": "renpy.meta.color.#80b",
+                "settings": {
+                    "foreground": "#80b"
+                }
             }
         ]
     }

@@ -40,6 +40,8 @@ label start:
             jump Kale
         "Koala":
             jump koala
+        "8h40":
+            jump huit_h_quarante
 
     
     
