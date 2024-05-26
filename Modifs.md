@@ -6,7 +6,9 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- HELL YEAH ca marche enfin j'ai fait dla merde mais ca marcheeeeeee boucle de testimony oppérationel c incroyable
-  #########################################################
+- création du shitpost koala
+- test de sprite (faudra remetre bien tout ce merdier)
 
-Heures de travail (approximatif) : 30h 10 min
+#########################################################
+
+Heures de travail (approximatif) : 30h 40 min
