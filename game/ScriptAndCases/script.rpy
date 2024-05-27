@@ -42,6 +42,8 @@ label start:
             jump koala
         "8h40":
             jump huit_h_quarante
+        "menu":
+            jump Qui_est_la_victime
 
     
     

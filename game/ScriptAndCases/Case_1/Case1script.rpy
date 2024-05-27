@@ -232,7 +232,141 @@ label huit_h_quarante:
     """
 
 
+    "BROUAHAHAHAHAHAHAH"
+    # **JUGE marteau**
+    JUGE"Je déclare la séance ouverte pour le procès de Madame Kale Bennett."
+    JUGE"Est-ce que l'accusation et la dégense sont prête ?"
+    SS"L'accusation est prête."
+    OS "Hum...{w=0.3} l'accusation est en mesure de prouver la culpabilité de madame Bennett."
+    WR "..."
+    JUGE "Qu'en est-il de la défense ?"
+    WR "..."
+    WR "{color=#80BEE4}(Je...{w=0.3}Je stresse oh mon dieu... !){/color}"
+    JUGE"Monsieur Romanger ?"
+    WR"Ah! Euh... Romanger ?"
+    OS "Votre honneur ! Il ne s'appelle pas « Ro-manger », il se nomme Romanng... "
+    OS"Vous savez,{w=0.2} Ro-{w=0.25}mangue."
+    WR"Euh... Merci..."
+    JUGE "Êtes-vous prêt monsieur Romanng ?"
+    WR "Oui. Je-{nw}"
+    WR"Fin, la défense est prête votre honneur !"
+    WR "{color=#80BEE4}(Non ce n'est pas vrai...{w} mais je ne veux pas effrayer Kale...)"
+    JUGE"J'aimerais que la défense fasse son exposé préliminaire."
+    WR"Moi ? Euh-"
+    JUGE"Vous êtes prêt bien-sûr ?"
+    WR"Aboslument ! Laissez-moi juste, un peu de temps..."with vpunch
+    KA"Vous connaissez la victime au moins ?"
+    WR"Bien sûr que je connais la victime ! C'est..."
+    menu Qui_est_la_victime:
+        "Qui est la victime ?"
+        "Madame Marshel":
+            jump victime_is_rose
+            #block of code to run
+        "Kale Bennett":
+            jump victime_is_kale
+        "Eudoe Kam":
+            jump victime_is_kam
+            #block of code to run
+label victime_is_kam:
+    WR"Eudoe Kam ?"
+    K"Hein ?? MOI ?? QU'EST CE QUE J'AI FAIT ???" with vpunch
+    KA"Mais c'est l'inspecteur !"
+    WR"Ah ! Oui, pardon Kam... En fait la victime c'est..."
+    jump Qui_est_la_victime
+label victime_is_kale:
+    WR"Kale Bennett !"
+    KA"MAIS C'EST MOI !" with vpunch
+    WR"Quoi ?Ah... Mes excuses, la victime est en fait..." with vpunch
+    jump Qui_est_la_victime
+label victime_is_rose:
+    WR"Madame Marshel..."
+    JUGE"Monsieur Romanng, nous vous attendons toujours pour votre exposé préliminaire."
+    WR"Oui, votre honneur."
+    WR"La défense plaide...{w} Non coupable !"
+    OS"Comment osez-vous plaider non-coupable sur une telle affaire !?" with vpunch
+    WR"Moi ? Hé bien..."
+    JUGE "Qu'en est-il de l'accusation ?"
+    OS"Nous, l'accusation, plaidons coupable.{w} Madame Bennett s'est rendue au domicile de Madame Marshel pour la tuer, avec mobile."
+    JUGE"Bien, veuillez introduire les preuves madame Kassilth."
+    OS"Très bien, d'abord, nous avons ce couteau de 15cm de longueur."
+    OS"C'est un couteau de cuisine simple, qui à été utilisé pour poignarder la victime à différentes reprise."
+    OS"Oh, et il à été lavé par la suite."
+    OS"Il a ensuite été déposé devant la victime."
+    WR "{color=#80BEE4}(Ça me crispe tellement...)"
+    OS"Voici un plan de la salle où la victime a été retrouvée, c'était un débarras où y figurais plusieurs caisses et matériaux inutilisés."
+    OS"Et j'ai ici le rapport d'autopsie de la victime, elle aurait été poignardée à plusieurs reprise entre 14 heures et 15 heures."
+    OS"Ses plaies présentent des morceaux de verres mais également de métal provenent du couteau."
+    OS"J'ai également:"
+    OS"Un verre d'eau renversé par terre."
+    OS"Un plan de la maison, dans l'ensemble, des traces de luttes, des fenêtres brisées, du sang au sol, et d'autres détails alarmants."
+    OS"De plus, sous la table, il est écrit le nom de la coupable."
+    OS"Puis nous avons récupéré les morceaux de verre issu de la fenêtre qui a été brisée."
+    WR"{color=#80BEE4}(Ça fait un paquet de preuve !)" with vpunch
+    JUGE "Bien, faites venir votre premier témoin à la barre."
+    OS"J'appelle, l'accusée, Kale Bennett à la barre."
+    JUGE "L'accusée n'a pas le droit de témoigner contre elle-même voyons !" with vpunch
+    OS"Elle nous donnera sa version des faits, et la défense pourra contre-argumenter."
+    # **deskslam
+    WR"ÇA N'A AUCUN SENS ! Vous voyez bien que je ne peux argumenter contre mon client !"
+    OS"Refusez-vous l'opportunité de disculper votre client ?"
+    KA"Je vais me disculper ?!"with vpunch
+    OS"En effet."
+    WR"{color=#80BEE4}(C'est un piège, tombe pas dedans !)"
+    WR"Kal-{nw=2}"
+    OS"N'interférez pas !"
+    JUGE"Accusée !"
+    JUGE"Voulez-vous témoigner ?"
+    KA"OUI !" with vpunch
+    WR"{color=#80BEE4}(C'est déjà mal parti... Elle va s'incriminer...)"
+    OS"Bien, alors, témoignez."
+    KA"AVEC PLAISIR !"with vpunch
+    narrator "DEPOSITION DU TEMOIN"
 
+label case_A_A_A:
+    #case, proces, temoignage A=1
+
+    KA"C'est autour de 13h que je suis arrivée chez la victime."
+    KA"Je l'aimais vous savez, c'était l'amie d'une amie."
+    KA"Mais après être arrivée, je me sentait très fatiguée,{w=0.3} je n'avais jamais ressenti ça !"
+    KA"Rose m'a demandée d'aller m'endormir, ce que j'ai donc fait."
+    KA"À mon réveil, il y avait...{w} Du sang partout !"
+    KA"Il y avait quelqu'un dans la maison, qui criait dans tout les sens !"
+    KA"Puis ensuite, sur un coup de tête, on m'a menottée... Pourquoi ?"
+    KA"Je vous jure que je suis innocente !"
+label case_A_A_A_next:
+    WR"{color=#80BEE4}(Cela me semble, compromis ?)"
+    WR"{color=#80BEE4}(Je ne sais même pas comment m'en sortir devant ce témoignage, je crois qu'il n'y a pas de contradiction...?)"
+    # Vue sur orchid
+    WR"{color=#80BEE4}(La procureure à l'air chiffon.)"
+    OS"Très bien; La victime à fait entendre sa version des faits."
+    OS"Avez-vous une raison appparente de pourquoi vous vous êtes endormie ?"
+    KA"Non, absulument pas."
+    OS"Hmm... Très bien."
+    JUGE"Monsieur Romanng ?"
+    WR"Oui votre honneur ?"
+    JUGE"Je vous sens stressé. Êtes-vous sûr de vouloir défendre votre client ?"
+    WR"Bien sûr !"
+    JUGE"Très bien, vous avez fait entendre à cette cour votre capacité."
+    JUGE"Alors veuillez commencer votre contre interrogatoire."
+    WR"Bien sûr..."
+    #flm de faire le contre interrogatoire mtn chepa encore comment faire
+    
+
+
+
+    
+    
+
+
+
+
+    
+
+
+    
+
+
+    
     
 
 
