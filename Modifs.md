@@ -6,8 +6,7 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- continue le script
-- next: contre interrogatoire logique
+- test de contre interrogatoire, pas concluant
   #########################################################
 
-Heures de travail (approximatif) : 33h 00 min
+Heures de travail (approximatif) : 33h 30 min

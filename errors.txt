@@ -2,33 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ScriptAndCases/___/koala.rpy", line 6: expected '=' not found.
-    image walter concentrate "walter concentrate.png"
-                             ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 7: expected '=' not found.
-    image walter pointing "walter pointing.png"
-                          ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 8: expected '=' not found.
-    image walter chocked "walter chocked.png"
-                         ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 9: expected '=' not found.
-    image walter wtf "walter wtf.png"
-                     ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 10: expected '=' not found.
-    image kam help "kam help.png"
-                   ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 11: expected '=' not found.
-    image kam confident "kam confident.png"
-                        ^
-
-File "game/ScriptAndCases/___/koala.rpy", line 12: expected '=' not found.
-    image kam happy "kam happy.png"
-                    ^
+File "game/ScriptAndCases/Case_1/Case1script.rpy", line 333: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    label treizeh:
+    ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sun May 26 14:00:01 2024
+Tue Jun  4 19:22:07 2024

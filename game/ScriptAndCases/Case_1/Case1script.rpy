@@ -322,11 +322,25 @@ label victime_is_rose:
     KA"AVEC PLAISIR !"with vpunch
     narrator "DEPOSITION DU TEMOIN"
 
+    
 label case_A_A_A:
     #case, proces, temoignage A=1
+    "aaa"
 
-    KA"C'est autour de 13h que je suis arrivée chez la victime."
-    KA"Je l'aimais vous savez, c'était l'amie d'une amie."
+    show screen attack("one_pm")
+    KA"I went to the victim's house around 1 pm."
+    # I want to skip the "one_pm" label if I don't call "attack" 
+    label one_pm:
+        WR"Wait a minute !"
+    # and when this speech end:
+    hide screen attack
+    # It goes here (so either you directly go here, either you pass by one_pm)
+    KA"I loved her you know, she was my best friend..."
+
+
+
+
+
     KA"Mais après être arrivée, je me sentait très fatiguée,{w=0.3} je n'avais jamais ressenti ça !"
     KA"Rose m'a demandée d'aller m'endormir, ce que j'ai donc fait."
     KA"À mon réveil, il y avait...{w} Du sang partout !"
@@ -335,6 +349,7 @@ label case_A_A_A:
     KA"Je vous jure que je suis innocente !"
 label case_A_A_A_next:
     WR"{color=#80BEE4}(Cela me semble, compromis ?)"
+    
     WR"{color=#80BEE4}(Je ne sais même pas comment m'en sortir devant ce témoignage, je crois qu'il n'y a pas de contradiction...?)"
     # Vue sur orchid
     WR"{color=#80BEE4}(La procureure à l'air chiffon.)"

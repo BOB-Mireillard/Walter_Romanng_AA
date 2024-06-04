@@ -44,6 +44,8 @@ label start:
             jump huit_h_quarante
         "menu":
             jump Qui_est_la_victime
+        "test":
+            jump case_A_A_A
 
     
     
