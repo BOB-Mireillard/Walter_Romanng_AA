@@ -6,7 +6,7 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- test de contre interrogatoire, pas concluant
+- Je continue le script (en bypassant les testimony)
   #########################################################
 
-Heures de travail (approximatif) : 33h 30 min
+Heures de travail (approximatif) : 34h 30 min

@@ -60,7 +60,7 @@ define OS = Character(('Orchid'), color="#ffffffff", callback=type_sound)
 define JUGE = Character(('Juge'), color="#ffffffff", callback=type_sound)
 
 # Silver Skyboarder
-define SS = Character(('Silver'), color="#ffffffff", callback=type_sound)
+define SS = Character(('Skyboarder'), color="#ffffffff", callback=type_sound)
 # Huissier
 define huissier =Character(('Huissier'),color="#ffffffff",callback=type_sound)
 

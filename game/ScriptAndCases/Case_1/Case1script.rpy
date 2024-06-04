@@ -366,6 +366,111 @@ label case_A_A_A_next:
     WR"Bien sûr..."
     #flm de faire le contre interrogatoire mtn chepa encore comment faire
     
+## HE TAMER APRES LE CONTRE INTERROGATOIRE DE MES COUILLES
+
+    #la walter cherche a trouver pk kale c'est endormie
+    WR"Votre honneur ! Ce verre d'eau est sûrement notre suspect numéro un !"
+    JUGE"Ce verre d'eau ?"
+    WR"Hé oui !"
+    "{b}BROUHAHAHAHAHAH{/b}"
+    JUGE"Silence dans la cour !" with vpunch
+    JUGE "Veuillez-nous expliquer monsieur Romanng."
+    WR "Voyez-vous, ce verre à sûrement dû être usé par madame Bennett après être rentrée dans la maison."
+    OS "C'est insensé ! Vous n'avez aucune preuve pour corroborer vos propos !"
+    WR"Je suis bien navré de faire des propositions insensées, mais c'est simplement parce que la preuve est limitée."
+    OS "Que voulez-vous dire ?"
+    WR"Le contenu de ce verre n'a pas été analysé, tout simplement parce que la victime ne présentait pas de traces qu'elle aurait été droguée via ve verre."
+    WR"Mais qui nous dit que ce verre n'a pas drogué..."
+    WR "{b}MA{/b} CLIENTE ?" with vpunch
+    KA"Je ne me souviens pas avoir bu dans ce verre..."
+    WR"!!!" with vpunch
+    KA"Du moins, je ne me souviens pas de ce qu'il s'est passé avant de m'être endormie."
+    OS"Votre honneur, je crois que le témoin n'est pas apte à témoigner."
+    #objection#
+    WR"Ce que dit le témoin prouve tout à fait qu'elle aurait pu être droguée !"
+    WR "Je demande à la cour que ce cas soit examiné."
+    #objection
+    OS"C'est insensé, absolument rien ne prouve cela !"
+    WR"Cette éventualité ne peut être écartée de l'affaire au vu des doutes qui planent sur cette preuve."
+    WR"Il serait prudent d'examiner le contenu du verre restant."
+    #marteau
+    JUGE "Assez. Ce verre semble poser problème..."
+    JUGE "Je demande à ce que la preuve soit examinée en détail."
+    JUGE "L'accusation a-t-elle d'autres témoins ?"
+    SS "Bien sûr !"
+    WR"{color=#80BEE4}(Le deuxième procureur...)"
+    JUGE"Vous daignez enfin à vous réveiller..."
+    SS"Oui votre honneur, j'aimerais appeler un témoin."
+    JUGE"Qu'en est-il ?"
+    SS"L'insecteur de police ayant travaillé sur cette affaire, l'inspecteur KAM !"
+    WR"{color=#80BEE4}(Allez Kam ! Il est temps de te cuisiner.)"
+    #fondu au nègre
+    K"Bien le bonjour."
+    JUGE "Bonjour, veuillez décliner votre identité, s'il vous plaît."
+    K"Je suis Eudoe Kam, inspecteur de police."
+    K"Je suis l'inspecteur en charge de cette affaire, et l'un des premiers à être arrivé sur la scène du crime."
+    JUGE "Je vois."
+    SS"Très bien, maintenant inspecteur, veuillez nous dire ce que vous savez sur la victime !"
+    window hide 
+    pause
+    #Déposition du témoin
+    "Etat de la victime"
+    K"Selon le rapport d'autopsie, la victime est morte entre 14 heures et 15 heures."
+    K"Les plaies de la victime ont étés difficiles à examiner."
+    K"Nous sommes presque sûr que l'arme du crime est le couteau."
+    K"Les plaies de la victime présentent des traces de verre et de métal."
+    K"Ce qui laisse à penser que c'est Marshel qui à explosé la vitre en essayant d'échapper à son meurtrier."
+    K"La victime a sûrement été prise par surprise lorsqu'elle quittait sa chambre..."
+    JUGE "Très bien, je vois."
+    JUGE "Est-ce que quelqu'un ici a une objection à faire sur ce que l'inspecteur a dit ?"
+    WR "Hmmm..."
+    WR "Une objection ?"
+    SS "Oui."
+    SS "Le mot qui permet de réfuter une allégation."
+    WR"{color=#80BEE4}(Ai-je une preuve permettant de réfuter le témoignage de Kam ?)"
+    KA "Monsieur ne vous attardez pas sur les petits détails..."
+    WR "{color=#80BEE4}(Les petits détails hein ?)"
+    WR "Non."
+    WR "Je ne pense pas avoir d'objection pour l'instant."
+    WR"{color=#80BEE4}(Je dois juste me contenter de me souvenir de ce dernier.)"
+    JUGE "Très bien, l'inspecteur a-t-il d'autres informations à révéler à cette cour ?"
+    SS "Monsieur Kam va nous parler du déroulement du crime."
+    JUGE "Très bien, veuillez témogner."
+    WR'"Témoigner" votre honneur.'
+    JUGE "Je dis ce que je veux."
+    WR "!!" with vpunch
+    #Déposition du témoin
+    "Témognage sur le déroulement du crime."
+    K"Le meurtrier a ouvert la porte de la maison."
+    K"La victime qui sortait de sa chambre s'est retrouvée nez à nez avec lui."
+    K"Le meurtrier a essayé immédiatement de la poignarder mais elle s'est débattue."
+    K"Dans l'altercation, la vitre a été brisée par madame Marshel."
+    K"Dans la finalité, la victime a été poignardée à plusieurs reprises, au même endroit !"
+    K"Pour finir, le meurtrier a été laver son couteau et a déplacé la victime dans l'arrière salle."
+
+    WR "{color=#80BEE4}(C'est,{w} effroyable.)"
+    WR "{color=#80BEE4}(Pourquoi j'ai accepté cette affaire...)"
+    JUGE "Monsieur Romanng ?"
+    WR "Oh euh, donc vous dites que la victime s'est débattue et a brisé la vitre ?"
+    K"C'est certain."
+    JUGE "Très bien, veuillez contre interroger le témoin monsieur Romanng."
+    #contre interrogatoir
+
+    K"""
+    {color=#27B52C} Le meurtrier a ouvert la porte de la maison.
+
+    {color=#27B52C}La victime qui sortait de sa chambre s'est retrouvée nez à nez avec lui.
+
+    {color=#27B52C}Le meurtrier a essayé immédiatement de la poignarder mais elle s'est débattue.
+
+    {color=#27B52C}Dans l'altercation, la vitre a été brisée par madame Marshel.
+
+    {color=#27B52C}Dans la finalité, la victime a été poignardée à plusieurs reprises, au même endroit !
+    
+    {color=#27B52C}Pour finir, le meurtrier a été laver son couteau et a déplacé la victime dans l'arrière salle.
+    """
+
+
 
 
 
