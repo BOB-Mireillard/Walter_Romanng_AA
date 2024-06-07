@@ -325,13 +325,11 @@ label victime_is_rose:
     
 label case_A_A_A:
     #case, proces, temoignage A=1
-    "aaa"
 
     show screen attack("one_pm")
+    $ renpy.checkpoint(hard=True)
     KA"I went to the victim's house around 1 pm."
     # I want to skip the "one_pm" label if I don't call "attack" 
-    label one_pm:
-        WR"Wait a minute !"
     # and when this speech end:
     hide screen attack
     # It goes here (so either you directly go here, either you pass by one_pm)
@@ -347,6 +345,12 @@ label case_A_A_A:
     KA"Il y avait quelqu'un dans la maison, qui criait dans tout les sens !"
     KA"Puis ensuite, sur un coup de tête, on m'a menottée... Pourquoi ?"
     KA"Je vous jure que je suis innocente !"
+label one_pm:
+        WR"Wait a minute !"
+        WR'fffff'
+        WR"againnnnnn"
+        $ renpy.rollback(force=True, checkpoints=1, defer=False, greedy=False, label=None, abnormal=True)
+
 label case_A_A_A_next:
     WR"{color=#80BEE4}(Cela me semble, compromis ?)"
     

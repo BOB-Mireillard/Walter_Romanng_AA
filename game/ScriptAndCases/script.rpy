@@ -16,6 +16,8 @@
 #### Code pour les touches: attaquer
 screen attack(check):
     key 'a' action Jump(check) 
+screen roll():
+    key 'z' action Rollback()
 ####################################
 
 

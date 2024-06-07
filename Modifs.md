@@ -6,7 +6,7 @@ Ici les dernieres modifs effectués:
 
 #########################################################
 
-- Je continue le script (en bypassant les testimony)
+- test sur les testimony: me renseigner sur le renpy.rollback ca a l'air la solution
   #########################################################
 
-Heures de travail (approximatif) : 34h 30 min
+Heures de travail (approximatif) : 35h 00 min
